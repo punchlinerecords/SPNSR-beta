@@ -31,6 +31,7 @@ setEmail(e.target.value)} required />
         <input type="password" placeholder="Password" onChange={(e) => 
 setPassword(e.target.value)} required />
         <button type="submit">Login</button>
+	<button onClick={() => window.location.href = "/signup"}>Sign Up</button>
       </form>
       <p>{message}</p>
     </div>
